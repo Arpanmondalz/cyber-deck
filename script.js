@@ -17,6 +17,18 @@ const projects = [
         desc: "The live state of the Earth (vibes, population, season, and other data) turned into a beautiful piece of art.",
         img: "assets/cyber-art.jpg",
         url: "https://arpanmondalz.github.io/world-state-art/"
+    },
+    {
+        title: "Jump OS",
+        desc: "Jump rope tracker that uses your smart phone front camera to count your jumps and reward points with game style sounds",
+        img: "assets/cyber-jump.jpg",
+        url: "https://arpanmondalz.github.io/jump-os/"
+    },
+    {
+        title: "Motivation to use your bicycle",
+        desc: "Use this to track your bicycle ride and disover how much of an impact you had on the world with every single ride!",
+        img: "assets/cyber-cycle.jpg",
+        url: "https://arpanmondalz.github.io/commute-audit/"
     }
 ];
 
@@ -100,3 +112,4 @@ btnSelect.addEventListener('click', () => {
 
 // --- INIT ---
 renderProject('next');
+
